@@ -1,0 +1,174 @@
+body {
+	margin: 0;
+	font-family: Arial,sans-serif;
+}
+header {
+	background-image: url(img2/banner.jpg);
+	color: white;
+    padding: 10%;
+    position: relative;
+    z-index: 1; 
+}
+h1 {
+	margin: 0;
+}
+.color {
+	width: 100%;
+	position: absolute;
+	height: 100%;
+	background-color: rgba(14%, 16%, 26%, 0.7);
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+header p {
+    text-transform: uppercase;
+}
+.chanel {
+	display: flex;
+	align-items: center;
+}
+a {
+	color: white;
+	text-decoration: none;
+	border: solid 2px white;
+    padding: 10px;
+    text-transform: capitalize;
+}
+.picflex {
+	display: flex;
+
+}
+.pic1 {
+	width: 30%;
+	background-image: url(img2/woman.jpg);
+
+}
+.pic2 {
+	width: 70%;
+	background-image: url(img2/city.jpg);
+}
+.pic {
+    background-size: cover;
+	color: white;
+	padding: 9%;
+	text-align: center;
+	position: relative;
+	z-index: 1;
+}
+.pic hr {
+	width: 80%;
+}
+.blanket1 {
+     background: rgba(122, 192, 216, 0.7); 
+}
+.blanket2 {
+     background: rgba(143, 134, 193, 0.7);
+}
+.blanket {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    transition-duration: 2s;
+    
+}
+.pic3 {
+	width: 70%;
+	background-image: url(img2/city2.jpg);
+
+ }
+.pic4 {
+	width: 30%;
+	background-image: url(img2/wolf.jpg);
+}
+.pic5 {
+	width: 30%;
+    background-image: url(img2/train.jpg);
+}
+.pic6 {
+	width: 70%;
+	background-image: url(img2/phone.jpg);
+}
+.blanket3 {
+     background: rgba(247, 79, 79, 0.5); 
+}
+.blanket4 {
+	background: rgba(245, 238, 174, 0.5);
+}
+.blanket5 {
+	background: rgba(231, 219, 240,0.5);
+}
+.blanket6 {
+	background: rgba(185, 226, 177,0.5);
+}
+.blanket:hover {
+     background: rgba(185, 226, 177,0);
+}
+.me a {
+    color: white;
+}
+.me {
+	background: rgba(42,47,72);
+	color: white;
+	padding: 5%;
+}
+.me h2 {
+	margin-top: 0;
+	text-align: center;
+}
+.youtube {
+	background: rgba(36,41,66);
+	color: white;
+	padding: 5%;
+}
+.name {
+  color: black;
+  background-color: white;
+}
+.textme {
+	text-align: center;
+	margin: 0;
+}
+form {
+	display: grid;
+	grid-template-areas: 
+	"text1_l text2_l"
+	"text1 text2"
+	"text3_l ."
+	"text3 text3"
+	"button .";
+    grid-gap: 15px;
+    grid-template-rows: 20px 35px 20px 90px 30px;
+}
+.text1 {
+	grid-area: text1;
+}
+.text2 {
+	grid-area: text2;
+}
+.text3 {
+	grid-area: text3;
+}
+.text1_l {
+	grid-area:text1_l;
+}
+.text2_l {
+	grid-area: text2_l;
+}
+.text3_l {
+	grid-area: text3_l;
+}
+button {
+	grid-area: button;
+}
+input {
+	background-color: rgba(43,47,73);
+	border: none;
+	outline: none;
+}
+label {
+	letter-spacing: 2px;
+}
